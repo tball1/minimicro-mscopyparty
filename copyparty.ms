@@ -49,7 +49,7 @@ read_file = function(filepath)
 end function
 
 
-//create_file("test.txt","Hello, world")
+//create_file "test.txt","Hello, world"
 //read_file "test.txt"
 //upload_file "/usr2/test.ms"
 
