@@ -27,7 +27,7 @@ upload_file = function(filepath,remotepath)
 		fileName = file.name(filepath)
 		
 		if fileInfo.isDirectory then
-			print("Uploading of folders isnt supported :(")
+			print "Uploading of folders isnt supported :("
 			return
 		end if
 		
@@ -50,8 +50,8 @@ end function
 
 
 //create_file("test.txt","Hello, world")
-//read_file("test.txt")
-//upload_file("/usr2/test.ms")
+//read_file "test.txt"
+//upload_file "/usr2/test.ms"
 
 
 
